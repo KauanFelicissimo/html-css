@@ -1,0 +1,58 @@
+/* Altura e largura */
+
+.altura-largura {
+    height: 500px;
+    width: 200px;
+    background-color: blueviolet;
+}
+
+.altura-largura-nova{
+    height: 200px;
+    background-color: #999;
+}
+
+/* Padding */
+.sem-padding{
+    background-color: aqua;
+    padding: none;
+    width: 200px;
+    height: 200px;
+}
+
+.com-padding{
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+    padding: 10px;
+}
+
+/* Padding por lados */
+
+.padding-lados{
+    background-color: crimson;
+    color: #fff;
+    padding-top: 10px;
+    padding-left: 150px;
+    padding-right: 5px;
+    padding-bottom: 40px;
+}
+
+/* shorthand properties / Propiedades abreviadas */
+
+.shorthand-padding{
+    background-color: #333;
+    padding: 10px 20px; /* é o mesmo que padding: 10px 20px 10px 20px; */
+    color: beige;
+}
+
+/* border */
+
+.border{
+    border: 5px solid blue;
+    padding: 10px;
+}
+
+.border2{
+    border: 2px dotted #785;
+    padding: 5px;
+}
